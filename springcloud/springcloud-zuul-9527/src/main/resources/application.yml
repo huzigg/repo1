@@ -1,0 +1,30 @@
+server:
+  port: 9527
+
+#给zuul取个名字
+spring:
+  application:
+    name: springcloud-zuul
+
+#Eureka配置
+eureka:
+  client:
+    service-url:
+      defaultZone: http://eureka7001.com:7001/eureka/,http://eureka7002.com:7002/eureka/,http://eureka7003.com:7003/eureka/     #配置注册中心地址
+  instance:
+    instance-id: zuul9527.com  #zuul状态显示名称
+    prefer-ip-address: true  #显示ip
+
+#zuul配置
+zuul:
+  routes:
+    mydept: {serviceId: springcloud-provider-dept,path: /mydept/**}   #配置map集合，用于确定路由的统一访问路径
+#    mydept.serviceId: springcloud-provider-dept
+#    mydept.path: /mydept/**
+  ignored-services: "*"   #表示要忽略的访问路径，因为我们配置了新的访问路径，需要将原来的路径禁止；配通配符隐藏全部
+  prefix: /hu    #给所有的访问添加统一的访问前缀
+
+#点进服务展示相关信息
+info:
+  app.name: springcloud-zhanghu
+  company.name: cduestc
