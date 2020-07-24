@@ -40,19 +40,14 @@
     <select>
       <path>
         <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="GROUP_NODE:dependabot" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="GROUP_NODE:maven" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="GROUP_NODE:springcloud" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="BRANCH:origin/dependabot/maven/springcloud/mysql-mysql-connector-java-8.0.16" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="BRANCH:master" type="e8cecc67:BranchNodeDescriptor" />
       </path>
     </select>
   </component>
   <component name="ChangeListManager">
     <list default="true" id="08cfe973-f94c-434b-b659-3a2fdffffe83" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/springcloud-provider-dept-8082/src/main/java/cn/cduestc/springcloud/controller/DeptController.java" beforeDir="false" afterPath="$PROJECT_DIR$/springcloud-provider-dept-8082/src/main/java/cn/cduestc/springcloud/controller/DeptController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springcloud-zuul-9527/src/main/java/cn/cduestc/springcloud/ZuulDept_9527.java" beforeDir="false" afterPath="$PROJECT_DIR$/springcloud-zuul-9527/src/main/java/cn/cduestc/springcloud/ZuulDept_9527.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -152,6 +147,12 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.intellij.database.dataSource.DataSourceTemplate" value="MySQL" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
@@ -289,10 +290,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.ZuulDept_9527" />
+        <item itemvalue="Application.DeptProvider_8081" />
+        <item itemvalue="Application.DashboardDeptConsumer_9001" />
         <item itemvalue="Application.HystrixDeptProvider_8081" />
         <item itemvalue="Application.EurekaServer_7001" />
-        <item itemvalue="Application.DashboardDeptConsumer_9001" />
-        <item itemvalue="Application.DeptProvider_8081" />
       </list>
     </recent_temporary>
   </component>
@@ -310,7 +311,7 @@
       <workItem from="1582512006351" duration="20061000" />
       <workItem from="1582601688612" duration="7646000" />
       <workItem from="1582683455928" duration="1879000" />
-      <workItem from="1595581909816" duration="964000" />
+      <workItem from="1595581909816" duration="2509000" />
     </task>
     <servers />
   </component>
@@ -339,7 +340,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="origin/dependabot/maven/springcloud/mysql-mysql-connector-java-8.0.16" />
+                        <option value="master" />
                       </list>
                     </value>
                   </entry>
@@ -350,6 +351,12 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="425" y="189" key="run.anything.popup" timestamp="1595583497087">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="425" y="189" key="run.anything.popup/0.0.1536.834@0.0.1536.834" timestamp="1595583497087" />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
