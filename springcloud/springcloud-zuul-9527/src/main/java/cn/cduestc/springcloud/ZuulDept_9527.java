@@ -10,4 +10,5 @@ public class ZuulDept_9527 {
     public static void main(String[] args) {
         SpringApplication.run(ZuulDept_9527.class,args);
     }
+
 }

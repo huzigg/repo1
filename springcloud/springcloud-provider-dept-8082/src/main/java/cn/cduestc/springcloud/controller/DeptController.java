@@ -38,6 +38,7 @@ public class DeptController {
         return deptService.selectAll();
     }
 
+
     //输出eureka的服务发现信息（用来获取注册进来的服务的一些信息）
     @GetMapping("/dept/discovery")
     public Object discovery(){
@@ -57,4 +58,6 @@ public class DeptController {
         return this.discoveryClient;
     }
 
+
 }
+
