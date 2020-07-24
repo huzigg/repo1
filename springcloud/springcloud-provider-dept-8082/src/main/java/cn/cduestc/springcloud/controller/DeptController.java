@@ -58,14 +58,5 @@ public class DeptController {
         return this.discoveryClient;
     }
 
-
-
-
-
-
-
-
-
-
 }
 

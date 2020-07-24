@@ -41,7 +41,7 @@
       <path>
         <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
         <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="BRANCH:master" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="BRANCH:huzi" type="e8cecc67:BranchNodeDescriptor" />
       </path>
     </select>
   </component>
@@ -311,7 +311,7 @@
       <workItem from="1582512006351" duration="20061000" />
       <workItem from="1582601688612" duration="7646000" />
       <workItem from="1582683455928" duration="1879000" />
-      <workItem from="1595581909816" duration="2509000" />
+      <workItem from="1595581909816" duration="2906000" />
     </task>
     <servers />
   </component>
@@ -340,7 +340,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="master" />
+                        <option value="huzi" />
                       </list>
                     </value>
                   </entry>
